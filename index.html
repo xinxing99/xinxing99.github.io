@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Xin Xing">
-  <meta name="description" content="Personal website of Xin Xing, Assistant Professor in Computer Science at University of Nebraska Omaha.">
+  <meta name="description" content="Personal website of Xin Xing, Assistant Professor in Computer Science at UNO.">
   <meta name="keywords" content="Computer Vision, Deep Learning, Machine Learning, Medical Imaging">
 
   <title>Xin Xing</title>
@@ -28,7 +28,6 @@
   </noscript>
 </head>
 
-
 <body>
     <style>
         body {
@@ -49,7 +48,7 @@
         }
 
         .university-color {
-            color: #0A0A0A;
+            color: #0033A0;
         }
 
         .link-list a {
@@ -75,6 +74,81 @@
             filter: brightness(0) invert(1);
         }
 
+
+        .team-img-placeholder {
+            background: #e3eef6;
+            color: #0033A0;
+            font-size: 56px;
+            font-weight: bold;
+            line-height: 180px;
+            text-align: center;
+        }
+
+        .member-category {
+            margin-top: 30px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #0ABAB5;
+            font-weight: bold;
+            color: #0033A0;
+        }
+
+        .team-section {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        /* Add this to your CSS file */
+        .team-img {
+        width: 180px;         /* Set your desired width */
+        height: 180px;        /* Set your desired height */
+        object-fit: cover;    /* Crop and center the image */
+        object-position: center;
+        border-radius: 50%;   /* Optional: make it circular */
+        display: block;
+        margin: 0 auto;       /* Center the image horizontally */
+        }
+
+        .team-member {
+            margin-bottom: 30px;
+        }
+
+        .team-member h3 {
+            font-size: 20px; /* Adjust this value as needed */
+        }
+
+        .team-member p {
+            margin-bottom: 5px; /* Reduce the bottom margin */
+        }
+
+        .member-status {
+            font-style: italic;
+            color: #666; /* You can change this color to suit your design */
+        }
+
+        .sponsors-section {
+        padding: 2rem 0;
+        text-align: center;
+        }
+        .sponsor-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .sponsor-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 100px;
+        }
+        .sponsor-img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
     </style>
 
     <!-- Navigation -->
@@ -95,164 +169,147 @@
             <!-- Entries Column -->
             <div class="col-md-9 col-xs-12 content-spacing">
                 <div class="col">
-                        <p><strong style="color:#0ABAB5";>About Me</strong>.
-                            I am a tenure-track Assistant Professor of Computer Science at <a href="https://www.unomaha.edu">University of Nebraska Omaha (UNO)</a>. My research focuses on computer vision, deep learning, and machine learning, specifically image category, multimodal learning, and medical image analysis. I got my Ph.D. in Computer Science from the <a href="https://www.uky.edu/">University of Kentucky</a> under the supervision of <a href="https://engineering.washu.edu/faculty/Nathan-Jacobs.html">Dr. Nathan Jacobs</a> and <a href="https://medicine.missouri.edu/faculty/ai-ling-lin-phd">Dr. Ai-Ling Lin</a>.
+                    <h3 id="join-lab">
+                         X-Vision Lab
+                    </h3>
+                    <div style="margin-bottom: 20px;">
+                        <img src="images/PKI.jpg" alt="PKI building image" style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                    
+                    <p><strong style="color:#0ABAB5;">We are actively seeking for new members at all levels to join our Lab! We have a supportive culture where you can do impactful research, learn new skills, and achieve your personal goals. </strong></p>
 
-                            <!-- I obtained my Bachelor's degree from <a href="https://www.sdu.edu.cn">Shandong University</a>, China. -->
-                            
-                            I love my wife, my baby girl, and my cats (we have two cats: Miaomiao and Maisy).
-                        </p>   
-                        
-                        <!-- <p><strong style="color:#0ABAB5;">Experience</strong></p>
-                        <ul>
-                            <li>Assistant Professor, University of Nebraska Omaha, 2024 - Present</li>            
-                            <li>Ph.D. in CS, University of Kentucky, 2018 - 2023</li>
-                        </ul> -->
-                        <p><strong style="color:#0ABAB5;">Lab Openings</strong>. I am actively seeking for new members at all levels to join my <a href="lab.html">Lab</a>!.</p>
+                    <div style="margin-left: 20px; margin-bottom: 15px;">
+                        <strong>Ph.D./Master Students (several fully funded GA positions are currently available</u>):</strong>
+                        <ul style="margin-left: 20px;">
+                            <li>I am always looking for self-motivated students to join my lab. The Ph.D. program is typically a four- to five-year journey that requires full commitment to conducting impactful research.</li>
+                            <li>More information regarding to <a href="https://www.unomaha.edu/college-of-information-science-and-technology/computer-science/prospective-students/graduate-programs.php" target="_blank">Graduate Programs of Computer Science</a> is here.</li>
+                            <li> Anticipated Start Date: Spring/Fall semester </li>
+                            <li> Deadline: I strongly encourage you to submit your application as early as possible if you want to work with me.</li>
+                        </ul>
+                    </div>
 
-                        <div style="margin-left: 20px; margin-bottom: 15px;">
-                            <!-- <strong>GA Students (several <span style="color: #0ABAB5;">fully funded GA positions</span> are currently available</u>):</strong>-->
-                            <ul style="margin-left: 20px;">
-                                <li>I welcome self-motivated students who are passionate about AI and computer vision to join my lab. See our <a href="lab.html">Lab</a> page for more details on how to apply.</li>
-                            </ul>
+                    <div style="margin-left: 20px; margin-bottom: 15px;">
+                        <strong>Research Interns (flexible term, any time):</strong>
+                        <ul style="margin-left: 20px;">
+                            <li>We welcome both <b>undergraduate and graduate interns</b> from UNO and other institutions.</li>
+                            <li><b>Remote intern</b> options are available for students who are not enrolled in UNO.</li>
+                            <li>The goal of a research internship is to design a project that aligns with both my lab’s goals and your interests, and that you can lead toward a publication.</li>
+                        </ul>
+                    </div>
+
+                <p><strong style="color:0ABAB5;">How to contact?</strong> If you are interested in joining our lab, please email your intent (e.g., Ph.D./Master application, research internship, independent study project, visiting scholar, etc.) to me, along with your CV, transcripts (for students), statements, publications (if any), and any other materials that you believe will help me understand your background. </p>
+
+
+
+
+                </div>
+
+                <hr>
+                <h3 class="text-center">Our Team</h3>
+                <!--
+                <p><strong>Lab Director</strong></p>
+                <div class="team-section">
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6 team-member">
+                            <img src="images/Xin.jpg" alt="xxing" class="team-img">
+                            <h3><a href="https://xinxing99.github.io/">Xin Xing, Ph.D.</a></h3>
+                            <p>Principal Investigator</p>
+                            <p class="member-status">Assistant Professor</p>
                         </div>
 
-                        <div style="margin-left: 20px; margin-bottom: 15px;">
-                            <strong>Research Interns (flexible term, any time):</strong>
-                            <ul style="margin-left: 20px;">
-                                <li>We welcome both <b>undergraduate and graduate interns</b> from UNO. See our <a href="lab.html">Lab</a> page for more details on how to apply.</li>
-                                <li>The goal of a research internship is to design a project that aligns with both my lab’s goals and your interests, and that you can lead toward a publication.</li>
-                            </ul>
-                        </div>
-
-                        <p><strong style="color:#0ABAB5;">Research Interests:</strong>
-                        My research aims on Computer Vision and AI4Healthcare.
-                        I am interested in a wide range of research fields from computer vision, multimodal AI, and AI+X. Currently I am actively working on </p>
-
-                        <ol>
-                          <li>
-                            <strong>Vision-Language Model</strong><br>
-                            Vision-language models (VLMs), upgraded by the CLIP model of OpenAI, have demonstrated remarkable performance across a wide range of computer vision tasks. I am particularly interested in exploring their applications under limited supervision scenarios, including semi-supervised learning, self-supervised learning, few-shot learning, and zero-shot learning. These approaches offer exciting opportunities to build robust and scalable vision systems with minimal labeled data.<br>
-                            <span style="color:#0ABAB5;">
-                              <em><strong>Keywords:</strong> VLMs, Limited Supervision</em>
-                            </span>
-                          </li>
-
-                          <li>
-                            <strong>Computer Vision in Medical Imaging</strong><br>
-                            Computer vision plays a critical role in medical imaging analysis, particularly in applications such as Computer-Aided Diagnosis (CAD). I am deeply interested in developing and applying deep learning models tailored to clinical medical data—ranging from simple, shallow CNNs to complex multi-modality learning frameworks. Our current work focuses on integrating foundation models into AI for Health (AI4Health) applications.<br>
-                            <span style="color:#0ABAB5;">
-                              <em><strong>Keywords:</strong> Computer Vision, AI4Healthcare</em>
-                            </span>
-                          </li>
-
-                          <li>
-                            <strong>Generation AI in Medical Data </strong><br>
-                           Generative AI is a fascinating field, and I am deeply passionate about its applications in medical data, including data and label generation, disease progression modeling, and precision healthcare. Our current work focuses on developing a generative framework that integrates multiple data modalities—such as medical imaging and clinical records—to generate high-quality, trustworthy medical data for research and clinical decision support.<br>
-                            <span style="color:#0ABAB5;">
-                              <em><strong>Keywords:</strong> Generation AI, Precision Healthcare</em>
-                            </span>
-                          </li>
-                        </ol>
-
-                        <p><strong style="color:#0ABAB5";>Collaboration with Me</strong>.
-                        I am open to research collaborations, invited talks, and other opportunities from both within and outside my institution. I believe that impactful research often grows from long-term, meaningful collaborations. If you're interested in working together or starting a conversation, feel free to drop me an email. Let’s connect!
-
-                        <hr>
-                        <h3 id="news"><i class="fas fa-newspaper"></i> Recent News</h3>
-                        <div class="news-container" style="height: 500px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px; background-color: #f9f9f9;">
-                            <p><strong>[09/2026]</strong> One paper got accepted to International Conference on Embedded Artificial Intelligence and Sensing Systems (Sensys).</p>
-                            <p><strong>[03/2026]</strong> One paper got accepted to Frontiers in Psychiatry.</p>
-                            <p><strong>[03/2026]</strong> Two Abstracts got accepted to American Academy of Dermatology (AAD) Annual Meeting.</p>
-                            <p><strong>[02/2026]</strong> One Abstract got accepted to Society for AI in Vision and Ophthalmolog (SAIVO) Annual Meeting.</p>
-                            <p><strong>[01/2026]</strong> One paper got accepted to IEEE International Symposium on Biomedical Imaging (ISBI) 2026.</p>
-                            <p><strong>[07/2025]</strong> One paper got accepted to Journal of Neurochemistry.</p>
-                            <p><strong>[07/2025]</strong> Honored to be awarded the funding of <a href="https://nebraska.edu/collaboration-initiative">Nebraska Research Initiative (NRI)</a>.</p>
-                            <p><strong>[07/2025]</strong> One paper got accepted to NMR in Biomedicine.</p>
-                            <p><strong>[05/2025]</strong> One paper got accepted to Transactions on Machine Learning Research (TMLR).</p>
-                            <p><strong>[04/2025]</strong> Gave an invited talk at the University of Kansas Medical Center (KUMC).</p>
-                            <p><strong>[02/2025]</strong> One abstract got accepted to 2025 CAE in Cybersecurity Symposium – Charleston, South Carolina!</p>
-                            <p><strong>[12/2024]</strong> One paper got accepted to IEEE International Conference on Big Data (BigData).</p>
-                            <p><strong>[12/2024]</strong> Two abstracts got accepted to Alzheimer’s Association International Conference.</p>
-                            <p><strong>[09/2024]</strong> One paper got accepted to Bioengineering.</p>
-                            <p><strong>[08/2024]</strong> New Adventure Begins at UNO.</p>
-                            <p><strong>[06/2024]</strong> One paper got accepted to CVPR workshop.</p>
-                            <p><strong>[04/2024]</strong> I will be joining the University of Nebraska Omaha (UNO) as an Assistant Professor of Computer Science in August.</p>
-                            <p><strong>[11/14/2023]</strong> I successfully defended my dissertation and got my title! :)</p>
-                            <p><strong>[11/2023]</strong> One paper got accepted to IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.</p>
-                            <p><strong>[09/2023]</strong> One paper got accepted to Frontiers in Aging Neuroscience.</p>
-                            <p><strong>[09/2023]</strong> One paper got accepted to Scientific Reports.</p>
-                            <p><strong>[08/2023]</strong> One paper got accepted to Cluster Computing.</p>
-                            <p><strong>[07/2023]</strong> One paper got accepted to Bioengineering.</p>
-                            <p><strong>[01/2023]</strong> One paper got accepted to Electronics.</p>
-                            <p><strong>[11/2022]</strong> One paper got accepted to Frontiers in Microbiomes.</p>
-                            <p><strong>[09/2022]</strong> One paper got accepted to Knowledge-Based Systems.</p>
-                            <p><strong>[05/2022]</strong> One paper got accepted to ICPR 2022.</p>
-                            <p><strong>[01/2022]</strong> One paper on medical imaging got accepted to ISBI 2022.</p>                            
-                            <p><strong>[09/2021]</strong> One paper got accepted to IEEE Journal of Biomedical and Health Informatics.</p>
-                            <p><strong>[07/2021]</strong> Two papers got accepted to EMBC 2021.</p>
-                            <p><strong>[07/2020]</strong> Four Abstracts got accepted to Alzheimer’s Association International Conference.</p>
-                            <p><strong>[07/2020]</strong> One paper got accepted to a ECCV 2020 workshop.</p>
-                            <p><strong>[07/2020]</strong> One paper got accepted to Nature Communications biology.</p>
-                            <p><strong>[10/2019]</strong> Two papers got accepted to BIBM 2019.</p>
-                            
-                        </div>
-
-                        <hr>
-                            <h2 id="awards">&#127941; Awards and Grants</h2>
-
-                            <h5>As Principal Investigator (August 2024 onwards)</h5>
-                            <ul class="vert">
-                                <li><a href="https://nebraska.edu/collaboration-initiative">Nebraska Research Initiative: Decoding Alzheimer’s Through Sleep: An AI-Powered Approach</a>, 2026</li>
-                            </ul>
-                            <ul class="vert">
-                                <li><a href="https://nebraska.edu/collaboration-initiative">Nebraska Research Initiative: Artificial Intelligence (AI)-Driven Predictions of Acute Graft-Versus-Host Disease Outcomes: Combining Histologic, Serologic, and Clinical Data</a>, 2025</li>
-                            </ul>
-                  
-                            <ul class="vert">
-                                <li><a href="https://nebraska.edu/collaboration-initiative">Nebraska Research Initiative: Naturalistic Social Interaction Analysis Between Dementia Care Recipients and Caregivers with Data-Driven Machine Learning Models</a>, 2025</li>
-                            </ul>
-                  
-                            <h5>Prior to Principal Investigator Role (Before August 2024)</h5>
-                            <ul class="vert">
-                                <li><a href="https://www.ieeelcn.org/prior/LCN43/index.html">Best Paper Award, The 43nd IEEE Conference on Local Computer Networks (LCN)</a>, 2018</li>
-                            </ul>
-                            <!-- Close any open divs as needed above this line -->
-        </div>
-    </div>
-            <div class="col-md-3 col-xs-12 content-spacing">
-                <div class="heading university-color">Xin Xing</div>
-                <div class="row">
-                    <div class="col-md-10 col-xs-4">
-                        <img class="img-fluid headshot" src="images/Xin.jpg" alt="Avatar of Xin Xing">
                     </div>
                 </div>
-                <div class="info-text">
-                    <i>Assistant Professor</i><br>
-                    <a href="https://www.unomaha.edu/college-of-information-science-and-technology/computer-science/"> Department of Computer Science</a><br>
-                    <a href="https://www.unomaha.edu/college-of-information-science-and-technology/index.php"> College of Information Science & Technology</a><br>
-                    <p class="university-color"><strong><a href="https://www.unomaha.edu/index.php">University of Nebraska Omaha</a></strong></p>
-                    Omaha, Nebraska, USA<br>
-                    <b>Email</b>: <span id="email-placeholder"></span>
-                    <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var emailUser = 'xxing';
-                        var emailHost = 'nebraska.edu';
-                        var emailElement = document.getElementById('email-placeholder');
-                        emailElement.innerHTML = '<a href="mailto:' + emailUser + '@' + emailHost + '">' + emailUser + '@' + emailHost + '</a>';
-                    });
-                    </script>
+                -->
+               <!-- <hr> -->
+                <p><strong>Current Members</strong>: We are actively seeking for new members at all levels to join our team!  </p>
+
+                <!-- ===== Ph.D. Students ===== -->
+                <h5 class="member-category">Ph.D. Students</h5>
+                <div class="team-section">
+                <div class="row">
+
+                    <!-- Team Member (photo to be added: replace the placeholder div with <img src="images/members/Scott.jpg" alt="Scott Faust" class="team-img">) -->
+                    <div class="col-md-4 col-sm-6 team-member">
+                        <div class="team-img team-img-placeholder">SF</div>
+                        <h3><a href="https://www.linkedin.com/in/scott-faust-omaha/" target="_blank">Scott Faust</a></h3>
+                        <p class="member-status"><strong>Graduate Research Assistant, Ph.D. Student in Computer Science, UNO (Spring 2027&ndash;)</strong></p>
+                    </div>
+
                 </div>
-                <div class="link-list">
-                    <a href="https://scholar.google.com/citations?user=dA-i7zQAAAAJ&hl=en">Google Scholar</a> |
-                    <!--<a href="files/bio.txt">Short Bio</a> | -->
-                    <!-- <a href="https://github.com/yuzhang03">GitHub</a> | -->
-                    <a href="https://www.linkedin.com/in/xin-xing-93111493/"> LinkedIn</a>
-                    <!-- <a href="https://www.xiaohongshu.com/user/profile/61716aad000000000201caae?xhsshare=CopyLink&appuid=61716aad000000000201caae&apptime=1693197943">小红书</a> | -->
                 </div>
-            </div>
-        </div>
-    </div>
+
+                <!-- ===== Master Students ===== -->
+                <h5 class="member-category">Master Students</h5>
+                <div class="team-section">
+                <div class="row">
+
+                    <!-- Team Member -->
+                    <div class="col-md-4 col-sm-6 team-member">
+                        <img src="images/members/Pranjal.jpg" alt="Pranjal Khadka" class="team-img">
+                        <h3><a href="https://pranzalkhadka.github.io/resume/" target="_blank">Pranjal Khadka</a></h3>
+                        <p>Research: Wearable Sensors &amp; Machine Learning for Dementia Care</p>
+                        <p class="member-status"><strong>Graduate Research Assistant, Master Student in Computer Science, UNO (Fall 2026&ndash;)</strong></p>
+                        <!-- <p class="member-status">email: ...@unomaha.edu</p> -->
+                    </div>
+
+                    <!-- Team Member (photo/website to be added: replace the placeholder div with <img src="images/members/Sean.jpg" alt="Sean Snider" class="team-img">, and wrap the name in <a href="...">) -->
+                    <div class="col-md-4 col-sm-6 team-member">
+                        <div class="team-img team-img-placeholder">SS</div>
+                        <h3>Sean Snider</h3>
+                        <p>Research: Generative AI for Retinal Imaging</p>
+                        <p class="member-status"><strong>Master Student in Computer Science, UNO</strong></p>
+                    </div>
+
+                </div>
+                </div>
+
+                <!-- ===== Research Interns ===== -->
+                <h5 class="member-category">Research Interns</h5>
+                <div class="team-section">
+                <div class="row">
+
+                   <!-- Team Member -->
+                    <div class="col-md-4 col-sm-6 team-member">
+                        <img src="images/members/JMiligan.jpg" alt="Jonathan Milligan" class="team-img">
+                        <h3><a href="https://jonathansm.com">Jonathan Milligan</a></h3>
+                        <p>Research: Foundation Model on Medical Segmentation</p>
+                        <p class="member-status"><strong>Intern, Undergraduate student in University of Nebraska Lincoln (UNL)</strong></p>
+                        <p class="member-status">email: jmilligan8@huskers.unl.edu</p>
+                    </div>
+                  <!--Team Member -->
+                    <div class="col-md-4 col-sm-6 team-member">
+                        <img src="images/members/YTT.jpg" alt="Yusuf Taha Tüten" class="team-img">
+                        <h3><a href="https://www.linkedin.com/in/yusuf-taha-tüten">Yusuf Taha Tüten</a></h3>
+                        <p>Research: Efficient AI</p>
+                        <p class="member-status"><strong>Research Intern, Master student in Istanbul Technical University (ITU)</strong></p>
+                        <p class="member-status">email: tuten25@itu.edu.tr</p>
+                    </div> 
+
+                    <!-- Add more interns here -->
+                </div>
+                </div>
+
+            <!-- <hr>
+            <h3 class="text-center">Alumni</h3>
+            <p class="text-center">We greatly appreciate the contributions of our past members:</p>
+
+            <div style="text-align: left; margin: 20px;">
+                <a href="https://thl-leo.vercel.app/">Leo Lee</a> - ML/Database System - Master Student (ltlee@usc.edu) <br>
+            </div> -->
+
+            <!-- <hr>
+            <div class="sponsors-section">
+                <h3 class="text-center">Our Sponsors</h3>
+                <div class="sponsor-logos">
+                    <div class="sponsor-logo">
+                        <img src="images/sponsors/NSF-Symbol.webp" alt="National Science Foundation" class="sponsor-img">
+                    </div>
+                    <div class="sponsor-logo">
+                        <img src="images/sponsors/amazon.webp" alt="Amazon" class="sponsor-img">
+                    </div>
+                </div>
+            </div> -->
 
     <!--Insert footer-->
     <div id="myFooter"></div>
@@ -275,10 +332,6 @@
             .then(response => response.text())
             .then(content => {
                 document.getElementById('navbar').innerHTML = content;
-            })
-            .catch(error => {
-                console.error('Error loading navbar:', error);
-                document.getElementById('navbar').innerHTML = '<p>Error loading navigation. Please host on a server.</p>';
             });
         });
     </script>
